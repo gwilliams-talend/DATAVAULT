@@ -1,0 +1,32 @@
+package routines;
+
+import java.security.MessageDigest;
+import java.util.Base64;
+
+import routines.system.Hex;
+
+public class MD5Hash 
+{
+    public static String main(String InputString, String InputEncode) throws Exception
+    {
+    	if(!"HEX".equals(InputEncode) || !"BASE64".equals(InputEncode))
+            throw new Exception("The valid encoding parameters are HEX or BASE64.");
+        
+		byte[] bytesOfMessage = InputString.getBytes("UTF-8");
+
+		MessageDigest md = MessageDigest.getInstance("MD5");
+		byte[] digestBytes = md.digest(bytesOfMessage);
+        
+		if ("HEX".equals(InputEncode)) 
+		{
+			String answer = Hex.encodeHexString(digestBytes);
+		    return answer;	    
+		} 
+		else 
+		{
+	    	String answer = Base64.getEncoder().encodeToString(digestBytes);
+		    return answer;
+		} 
+
+    }
+}

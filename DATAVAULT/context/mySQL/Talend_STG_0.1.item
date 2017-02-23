@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<talendfile:ContextType xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" xmi:id="_cUOcEPmyEeaOAM4E0BQ3_g" confirmationNeeded="false" name="Default">
+  <contextParameter xmi:id="_cUOcEfmyEeaOAM4E0BQ3_g" comment="" name="Talend_STG_Login" prompt="Talend_STG_Login?" promptNeeded="false" type="id_String" value="talend"/>
+  <contextParameter xmi:id="_cUOcEvmyEeaOAM4E0BQ3_g" comment="" name="Talend_STG_Password" prompt="Talend_STG_Password?" promptNeeded="false" type="id_Password" value="YdTnhbqBAdo="/>
+  <contextParameter xmi:id="_cUOcE_myEeaOAM4E0BQ3_g" comment="" name="Talend_STG_Port" prompt="Talend_STG_Port?" promptNeeded="false" type="id_String" value="3306"/>
+  <contextParameter xmi:id="_cUOcFPmyEeaOAM4E0BQ3_g" comment="" name="Talend_STG_Server" prompt="Talend_STG_Server?" promptNeeded="false" type="id_String" value="192.168.80.130"/>
+  <contextParameter xmi:id="_cUOcFfmyEeaOAM4E0BQ3_g" comment="" name="Talend_STG_Database" prompt="Talend_STG_Database?" promptNeeded="false" type="id_String" value="talend_stg"/>
+  <contextParameter xmi:id="_cUOcFvmyEeaOAM4E0BQ3_g" comment="" name="Talend_STG_AdditionalParams" prompt="Talend_STG_AdditionalParams?" promptNeeded="false" type="id_String" value="autoReconnect=true"/>
+</talendfile:ContextType>

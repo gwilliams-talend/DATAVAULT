@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<talendfile:ContextType xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" xmi:id="_cUF5MPmyEeaOAM4E0BQ3_g" confirmationNeeded="false" name="Default">
+  <contextParameter xmi:id="_cUF5MfmyEeaOAM4E0BQ3_g" comment="" name="Talend_DV_Database" prompt="Talend_DV_Database?" promptNeeded="false" type="id_String" value="talend_dv"/>
+  <contextParameter xmi:id="_cUF5MvmyEeaOAM4E0BQ3_g" comment="" name="Talend_DV_Login" prompt="Talend_DV_Login?" promptNeeded="false" type="id_String" value="talend"/>
+  <contextParameter xmi:id="_cUF5M_myEeaOAM4E0BQ3_g" comment="" name="Talend_DV_Port" prompt="Talend_DV_Port?" promptNeeded="false" type="id_String" value="3306"/>
+  <contextParameter xmi:id="_cUF5NPmyEeaOAM4E0BQ3_g" comment="" name="Talend_DV_Password" prompt="Talend_DV_Password?" promptNeeded="false" type="id_Password" value="YdTnhbqBAdo="/>
+  <contextParameter xmi:id="_cUF5NfmyEeaOAM4E0BQ3_g" comment="" name="Talend_DV_Server" prompt="Talend_DV_Server?" promptNeeded="false" type="id_String" value="192.168.80.130"/>
+  <contextParameter xmi:id="_cUF5NvmyEeaOAM4E0BQ3_g" comment="" name="Talend_DV_AdditionalParams" prompt="Talend_DV_AdditionalParams?" promptNeeded="false" type="id_String" value="autoReconnect=true&amp;allowMultiQueries=true"/>
+</talendfile:ContextType>

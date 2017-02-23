@@ -1,0 +1,19 @@
+package routines;
+
+import java.security.MessageDigest;
+import java.util.Base64;
+
+public class MD5HashBase64 {
+    public static String main(String InputString) throws Exception
+    {
+        
+		byte[] bytesOfMessage = InputString.getBytes("UTF-8");
+
+		MessageDigest md = MessageDigest.getInstance("MD5");
+		byte[] digestBytes = md.digest(bytesOfMessage);
+        
+    	String answer = Base64.getEncoder().encodeToString(digestBytes);
+	    return answer;    
+
+    }
+}
