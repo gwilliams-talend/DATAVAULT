@@ -5,7 +5,7 @@
     <contextParameter comment="" name="Talend_DV_Login" prompt="Talend_DV_Login?" promptNeeded="false" repositoryContextId="_QcWxcCJyEea-v8fgMmcKTg" type="id_String" value="talend"/>
     <contextParameter comment="" name="Talend_DV_Port" prompt="Talend_DV_Port?" promptNeeded="false" repositoryContextId="_QcWxcCJyEea-v8fgMmcKTg" type="id_String" value="3306"/>
     <contextParameter comment="" name="Talend_DV_Password" prompt="Talend_DV_Password?" promptNeeded="false" repositoryContextId="_QcWxcCJyEea-v8fgMmcKTg" type="id_Password" value="YdTnhbqBAdo="/>
-    <contextParameter comment="" name="Talend_DV_Server" prompt="Talend_DV_Server?" promptNeeded="false" repositoryContextId="_QcWxcCJyEea-v8fgMmcKTg" type="id_String" value="192.168.80.130"/>
+    <contextParameter comment="" name="Talend_DV_Server" prompt="Talend_DV_Server?" promptNeeded="false" repositoryContextId="_QcWxcCJyEea-v8fgMmcKTg" type="id_String" value="localhost"/>
     <contextParameter comment="" name="Talend_DV_AdditionalParams" prompt="Talend_DV_AdditionalParams?" promptNeeded="false" repositoryContextId="_QcWxcCJyEea-v8fgMmcKTg" type="id_String" value="autoReconnect=true&amp;allowMultiQueries=true"/>
     <contextParameter comment="" name="Talend_STG_AdditionalParams" prompt="Talend_STG_AdditionalParams?" promptNeeded="false" repositoryContextId="_cjzVQCM_Eeamhrfd0iYrSw" type="id_String" value="autoReconnect=true"/>
     <contextParameter comment="" name="Talend_STG_Login" prompt="Talend_STG_Login?" promptNeeded="false" repositoryContextId="_cjzVQCM_Eeamhrfd0iYrSw" type="id_String" value="talend"/>

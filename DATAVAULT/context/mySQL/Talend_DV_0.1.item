@@ -4,6 +4,6 @@
   <contextParameter xmi:id="_cUF5MvmyEeaOAM4E0BQ3_g" comment="" name="Talend_DV_Login" prompt="Talend_DV_Login?" promptNeeded="false" type="id_String" value="talend"/>
   <contextParameter xmi:id="_cUF5M_myEeaOAM4E0BQ3_g" comment="" name="Talend_DV_Port" prompt="Talend_DV_Port?" promptNeeded="false" type="id_String" value="3306"/>
   <contextParameter xmi:id="_cUF5NPmyEeaOAM4E0BQ3_g" comment="" name="Talend_DV_Password" prompt="Talend_DV_Password?" promptNeeded="false" type="id_Password" value="YdTnhbqBAdo="/>
-  <contextParameter xmi:id="_cUF5NfmyEeaOAM4E0BQ3_g" comment="" name="Talend_DV_Server" prompt="Talend_DV_Server?" promptNeeded="false" type="id_String" value="192.168.80.130"/>
+  <contextParameter xmi:id="_cUF5NfmyEeaOAM4E0BQ3_g" comment="" name="Talend_DV_Server" prompt="Talend_DV_Server?" promptNeeded="false" type="id_String" value="localhost"/>
   <contextParameter xmi:id="_cUF5NvmyEeaOAM4E0BQ3_g" comment="" name="Talend_DV_AdditionalParams" prompt="Talend_DV_AdditionalParams?" promptNeeded="false" type="id_String" value="autoReconnect=true&amp;allowMultiQueries=true"/>
 </talendfile:ContextType>
